@@ -3,8 +3,8 @@ ob_start();
 session_start();
 $pageTitle = 'HomePage';
 include 'init.php';
-<!-- Here we will make new code for background projects -->
 ?>
+<!-- Here we will make new code for background projects -->
 <div class="container">
     <h1 class="text-center"> Welcome </h1>
     <div class="row">
