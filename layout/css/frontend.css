@@ -1,0 +1,170 @@
+/* START MAIN RULEZ  */
+body{
+    background-color: #F4F4F4;
+}
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #000000;
+}
+
+.input-container {
+    position: relative;
+}
+
+.asterisk {
+    font-size: 30px;
+    position: absolute;
+    right : 30px;
+    top : 3px;
+    color : #D20707;
+}
+/* END MAIN RULEZ  */
+
+
+/* START BOOTSTRAP EDIT */
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.nav>li>a, 
+.navbar-brand {
+    padding: 15px 12px;
+}
+.navbar-brand{
+    font-size: 1em;
+}
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu {
+    background-color: #3498db;
+}
+
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+.dropdown-menu > li > a {
+    color: #FFF;
+    padding: 10px 15px;
+}
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover{
+    color: #FFF;
+    background-color: #8e44ad;
+
+}
+
+
+.form-control {
+    position: relative;
+}
+/* END BOOTSTRAP EDIT */
+
+/* Start Frontend categories page*/
+
+
+/* start login | signup designs */
+
+.login-pages form{
+    max-width: 300px;
+    margin: auto;   
+}
+
+.login-pages form input {
+    margin-bottom: 10px;
+}
+
+
+.login-pages [data-class="login"].cell-selected {
+    color: #337AB3;
+}
+
+.login-pages [data-class="signup"] {
+    color: #5cb85c;
+}
+
+.login-pages .cell-selected {
+    color: #B22020;
+}  
+
+.login-pages h1 {
+        color: #c0c0c0;   
+}
+
+.login-pages h1 span {
+    cursor: pointer;
+
+}
+
+.login-pages .signup {
+    display: none;
+}
+
+
+/* End login | signup designs */
+
+
+.item-box {
+    position: relative;
+
+}
+
+.upper-bar {
+    padding: 10px;
+    background-color:#FFF ;
+}
+
+.item-box .price-tag {
+background-color: #848484;
+padding: 2px 8px;
+position: absolute;
+left: 0;
+font-weight: bold;
+color: #FFF;
+top: 0;
+
+}
+
+
+/* Start Profile Page */
+
+.information {
+
+    margin-top: 20px;
+}
+
+.information ul {
+    padding: 0;
+    margin: 0;
+}
+
+.information ul li {
+    padding: 10px;
+}
+
+.information ul li:nth-child(odd){
+    background-color: #EEE;
+}
+
+.information ul li span {
+        display: inline-block;
+        width: 120px;
+}
+
+
+.thumbnail .date {
+    text-align: right;
+    font-size: 13px;
+    color: #AAA;
+    font-weight: bold;
+}
+/* End profile Page */
+
+/* End Frontend categories page*/
