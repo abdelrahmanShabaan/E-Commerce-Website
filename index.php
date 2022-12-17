@@ -3,7 +3,7 @@ ob_start();
 session_start();
 $pageTitle = 'HomePage';
 include 'init.php';
-
+//Here we will make new code for background project
 ?>
 <div class="container">
     <h1 class="text-center"> Welcome </h1>
